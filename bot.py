@@ -1,3 +1,4 @@
+# @B11_demo_bot
 import logging
 import asyncio
 from aiogram import Bot, Dispatcher, types
@@ -8,7 +9,7 @@ from aiogram.dispatcher.filters import Text
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
-bot = Bot(token='5986970010:AAH6VNBJEdUlrzmEyLi2Vc5N3YxdAcJ1okI', parse_mode=types.ParseMode.HTML)
+bot = Bot(token='6288021917:AAHgqNbuWdQxZzXyph3LU36f3n5E-mGYl3w', parse_mode=types.ParseMode.HTML)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(level=logging.INFO)
